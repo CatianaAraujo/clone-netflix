@@ -1,0 +1,93 @@
+@charset "UTF-8";
+body{
+    background: rgba(0, 0, 0, 0.7) url(imagens/backaground.jpg);
+    background-blend-mode: darken;
+    color: white;
+    font-family: sans-serif;
+}
+header{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.header-netflix{
+    width: 25vw;
+    height: 10vh;
+}
+.netflix-nome{
+    margin: 10px;
+    width: 10;
+    height: 10vh;
+}
+.botoes{
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.botao-1{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 25px;
+    background: transparent;
+    border-radius: 3px;
+    border: 2px solid white;
+    color: white;
+    font-weight: 700;
+}
+.botao-2{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 25px;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}    
+main{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.text-1{
+    font-weight: bold;
+    font-size: 25pt;
+    margin: 0px;
+}
+.center{
+    text-align: center;
+}
+.text-2 > h3{
+    font-weight: normal;
+    font-size: 20pt; 
+}
+.text-3 > h3{
+    font-weight: normal;
+    font-size: 15pt;
+    text-align: center; 
+}
+.input{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.input > input{
+    padding: 20px;
+    width: 35vw;
+}
+span{
+    background-color: red;
+    padding: 20px;
+}
+
+
